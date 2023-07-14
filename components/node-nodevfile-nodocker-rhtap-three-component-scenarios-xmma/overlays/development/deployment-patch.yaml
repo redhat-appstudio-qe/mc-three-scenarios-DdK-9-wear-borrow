@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: node-nodevfile-nodocker-rhtap-three-component-scenarios-xmma
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/multi-comp-e2e-yxlj-tenant/mc-three-scenarios/node-nodevfile-nodocker-rhtap-three-component-scenarios-xmma@sha256:e2f9c3c0bd5b1e53b830a7a33ddbcde15eb261aa275d1cdf72f5a3282c272956
+        name: my-nodejs
+        resources: {}
+status: {}
